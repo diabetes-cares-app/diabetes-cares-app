@@ -3,25 +3,25 @@ var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/workspaces/diabetes-cares-app/src/routes/__root.tsx",
 		children: ["/", "/app"],
-		css: ["/assets/index-BF1PGLV_.css"],
-		preloads: ["/assets/index-DQyUhBy_.js", "/assets/jsx-runtime-DyZJNswf.js"],
+		css: ["/assets/index-CVtJtPEH.css"],
+		preloads: ["/assets/index-BzY0Xfbv.js", "/assets/jsx-runtime-DyZJNswf.js"],
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-DQyUhBy_.js"
+			src: "/assets/index-BzY0Xfbv.js"
 		} }]
 	},
 	"/": {
 		filePath: "/workspaces/diabetes-cares-app/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-B1KNA0t2.js",
+			"/assets/routes-BDk5s-bz.js",
 			"/assets/store-CutG80aq.js",
 			"/assets/bell-ring-BTk0RuJ8.js",
 			"/assets/droplet-R9U8uwJ1.js",
 			"/assets/pill-BZiEpaz-.js",
 			"/assets/salad-8OCH_SfO.js",
-			"/assets/AppShell-BNu2UCPZ.js",
+			"/assets/AppShell-3dzD3_A2.js",
 			"/assets/triangle-alert-BHjd86gM.js",
 			"/assets/x-D2iNLj26.js"
 		]
@@ -35,8 +35,8 @@ var tsrStartManifest = () => ({ routes: {
 			"/app/"
 		],
 		preloads: [
-			"/assets/app-BlmDkgZI.js",
-			"/assets/AppShell-BNu2UCPZ.js",
+			"/assets/app-DQhonbzQ.js",
+			"/assets/AppShell-3dzD3_A2.js",
 			"/assets/store-CutG80aq.js",
 			"/assets/bell-ring-BTk0RuJ8.js",
 			"/assets/droplet-R9U8uwJ1.js",
@@ -54,7 +54,7 @@ var tsrStartManifest = () => ({ routes: {
 	"/app/meals": {
 		filePath: "/workspaces/diabetes-cares-app/src/routes/app.meals.tsx",
 		children: void 0,
-		preloads: ["/assets/app.meals-acNaTCHk.js", "/assets/ui-Do_tnPUT.js"]
+		preloads: ["/assets/app.meals-BYoacn0q.js", "/assets/ui-Do_tnPUT.js"]
 	},
 	"/app/medications": {
 		filePath: "/workspaces/diabetes-cares-app/src/routes/app.medications.tsx",
@@ -69,7 +69,7 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "/workspaces/diabetes-cares-app/src/routes/app.index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/app.index-C_ZOkqwh.js",
+			"/assets/app.index-3ioNwF-T.js",
 			"/assets/clock-CYqtLgIS.js",
 			"/assets/ui-Do_tnPUT.js"
 		]

@@ -6,19 +6,19 @@ SteadySugar is a daily companion for people living with diabetes: it prompts blo
 Landing page plus four working screens (Today dashboard, Log sugar, Meal plan, Medications) running on realistic sample data from `src/lib/fixtures.ts`. Reading classification, urgent alerts, care score, trend, the 30-minute overdue-check nudges and medication reminders all work in the browser while the app is open.
 
 ## Milestone 2 — Accounts & patient profile
-- Netlify Identity sign-up / log-in; gate `/app/*` to signed-in users.
+- Add identity-provider sign-up / log-in; gate `/app/*` to signed-in users.
 - Onboarding: diabetes type, target ranges, check schedule, medications and dose times, doctor contact.
 - Settings screen to edit all of the above.
 
 ## Milestone 3 — Real data storage
-- Netlify Database (Drizzle) tables: `profiles`, `check_slots`, `readings`, `medications`, `dose_logs`.
+- Add a database (Drizzle) with `profiles`, `check_slots`, `readings`, `medications`, and `dose_logs` tables.
 - Server functions to create/list readings and doses, validated on the server.
-- Meter photos uploaded to Netlify Blobs and linked from readings.
+- Meter photos uploaded to object storage and linked from readings.
 - Replace `buildHistory()` and the in-memory store with these APIs; remove the sample-data switch.
 
 ## Milestone 4 — Reminders that work when the app is closed
 - Service worker + Web Push subscription stored per user.
-- Scheduled Netlify Function (every 5 min) that finds overdue checks and due doses and sends push notifications, repeating every 30 minutes until the reading is uploaded or the dose is marked taken.
+- A scheduled function (every 5 min) that finds overdue checks and due doses and sends push notifications, repeating every 30 minutes until the reading is uploaded or the dose is marked taken.
 - Optional email/SMS fallback.
 
 ## Milestone 5 — Monitoring & care-team escalation
@@ -29,5 +29,5 @@ Landing page plus four working screens (Today dashboard, Log sugar, Meal plan, M
 
 ## Milestone 6 — Smarter meal suggestions
 - Larger meal library with dietary preferences, allergies and cuisine.
-- AI-assisted daily plans via Netlify AI Gateway, personalised to recent readings and carb budget.
+- AI-assisted daily plans via an AI gateway, personalised to recent readings and carb budget.
 - Log what was actually eaten to correlate meals with readings.

@@ -2,7 +2,7 @@
  * Sample data for SteadySugar's first milestone.
  *
  * Everything the screens show comes from this module so that a later
- * milestone can swap it for real persistence (Netlify Database) without
+ * milestone can swap it for real persistence without
  * touching the UI. Readings and doses are generated relative to "now"
  * with a seeded random generator, so the demo always looks current.
  */

@@ -63,7 +63,7 @@ function RootDocument({ children }) {
 	});
 }
 // src/routes/index.tsx
-var $$splitComponentImporter$5 = () => import("./routes-B9gNyVw2.js");
+var $$splitComponentImporter$5 = () => import("./routes-GAoDkyMt.js");
 var Route$5 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$5, "component") });
 // src/routes/app.tsx
 var $$splitComponentImporter$4 = () => import("./app-C3PimUBt.js");
@@ -81,7 +81,7 @@ var Route$2 = createFileRoute("/app/log")({
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
 // src/routes/app.meals.tsx
-var $$splitComponentImporter$1 = () => import("./app.meals-Dv13maPu.js");
+var $$splitComponentImporter$1 = () => import("./app.meals-3IohIa0W.js");
 var Route$1 = createFileRoute("/app/meals")({
 	head: () => ({ meta: [{ title: "Meal plan · SteadySugar" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")

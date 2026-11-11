@@ -87,7 +87,7 @@ function MealPlan() {
 				className: "relative overflow-hidden rounded-3xl bg-moss-deep text-paper",
 				children: [
 					/* @__PURE__ */ jsx("img", {
-						src: "/.netlify/images?url=/img/meals.png&w=1400&fm=webp&q=75",
+						src: "/img/meals.png",
 						alt: "",
 						className: "absolute inset-0 h-full w-full object-cover opacity-45"
 					}),

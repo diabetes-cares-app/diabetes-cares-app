@@ -1,1 +1,4 @@
 node_modules
+
+# Local development data and generated state
+.netlify/

@@ -1,1 +1,0 @@
-import{t as e}from"./AppShell-BNu2UCPZ.js";import{t}from"./store-CutG80aq.js";import{t as n}from"./jsx-runtime-DyZJNswf.js";var r=n(),i=()=>(0,r.jsx)(t,{children:(0,r.jsx)(e,{})});export{i as component};

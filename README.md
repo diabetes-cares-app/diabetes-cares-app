@@ -11,13 +11,13 @@ A daily diabetes care companion. SteadySugar helps a patient:
 
 ## Tech
 
-TanStack Start (React 19, file routes), Tailwind CSS v4, Chart.js, lucide icons, deployed on Netlify. Images are served through the Netlify Image CDN.
+TanStack Start (React 19, file routes), Tailwind CSS v4, Chart.js, and lucide icons. Images are served from `public/img`.
 
 ## Running locally
 
 ```bash
 pnpm install
-netlify dev     # or: pnpm dev
+pnpm dev
 pnpm test       # unit tests for the health logic
 ```
 

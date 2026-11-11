@@ -147,9 +147,7 @@ function Landing() {
 						/* @__PURE__ */ jsx("div", {
 							className: "overflow-hidden rounded-[2rem] shadow-2xl shadow-moss/15",
 							children: /* @__PURE__ */ jsx("img", {
-								src: "/.netlify/images?url=/img/hero.png&w=1100&fm=webp&q=80",
-								srcSet: "/.netlify/images?url=/img/hero.png&w=640&fm=webp&q=75 640w, /.netlify/images?url=/img/hero.png&w=1100&fm=webp&q=80 1100w",
-								sizes: "(min-width: 1024px) 560px, 100vw",
+								src: "/img/hero.png",
 								alt: "A balanced breakfast of oats with berries, avocado and egg beside a glucose meter",
 								className: "w-full aspect-[3/2] object-cover",
 								width: 1100,

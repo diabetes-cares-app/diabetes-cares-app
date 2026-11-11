@@ -1,6 +1,6 @@
 # SteadySugar — agent notes
 
-Diabetes self-management app. **Continue from [PLAN.md](./PLAN.md)** — milestone 1 (UI on sample data) is done; the next milestones add Identity, Netlify Database, push reminders, etc.
+Diabetes self-management app. **Continue from [PLAN.md](./PLAN.md)** — milestone 1 (UI on sample data) is done; the next milestones add accounts, persistence, push reminders, etc.
 
 ## Architecture
 
@@ -22,6 +22,4 @@ Diabetes self-management app. **Continue from [PLAN.md](./PLAN.md)** — milesto
 - Care score = 50% readings in range + 25% checks done + 25% doses taken. Trend = linear slope of the last 7 day scores; "doing well" needs slope ≥ 0 and week average ≥ 65. Today is omitted from the chart until it has a reading.
 - `/app` renders a loading state on the server; data is seeded in a client effect (time-relative data would otherwise cause hydration mismatches). Keep browser APIs in effects/handlers.
 - Design tokens are Tailwind `@theme` colours in `src/styles.css` (paper, ink, moss, leaf, alarm, amber…). Fonts: Fraunces (display) + Figtree (body) from Google Fonts.
-- Images in `public/img/` are referenced via `/.netlify/images?url=/img/...&w=...&fm=webp`.
-- TypeScript stays on v6 (the Netlify adapter build tooling needs it).
-- Use Netlify primitives for persistence (Database for records, Blobs for meter photos).
+- Images are served directly from `public/img/`.
